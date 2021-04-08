@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:id="@+id/ck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp" />
+
+    <CheckBox
+        android:id="@+id/ck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp" />
+
+    <CheckBox
+        android:id="@+id/ck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp" />
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:id="@+id/sk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_toRightOf="@id/ck1"
+        android:max="100"
+        android:progress="0"
+        android:thumb="@drawable/cat"></SeekBar>
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:id="@+id/sk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_toRightOf="@id/ck2"
+        android:max="100"
+        android:thumb="@drawable/fish"></SeekBar>
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:id="@+id/sk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:layout_toRightOf="@id/ck3"
+        android:max="100"
+        android:progress="0"
+        android:thumb="@drawable/ele"></SeekBar>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#FF0000"
+        android:text="100"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="80dp"
+        android:text="Money: "
+        android:textColor="#FF0000"
+        android:textSize="20sp"></TextView>
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="288dp"
+        android:text="Start"></Button>
+</RelativeLayout>
