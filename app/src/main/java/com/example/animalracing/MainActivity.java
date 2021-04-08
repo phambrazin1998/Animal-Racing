@@ -48,7 +48,6 @@ int money=100;
                     if(ck1.isChecked())
                     {
                         money=money+10;
-                        Toast.makeText(MainActivity.this,"You Win",Toast.LENGTH_SHORT).show();
                         Toast.makeText(MainActivity.this,"AHihi",Toast.LENGTH_SHORT).show();
                     }
                     else
